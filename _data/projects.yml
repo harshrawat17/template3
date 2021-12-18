@@ -3,7 +3,6 @@
 
   page-name: project
 
-- title: iOS App
-  event: MLH Prep Pod Project
-  date: Fall 2021  - Batch 4.5
-  page-name: VCO
+- title: LDO - Volatge Regulator
+  event: Designed a LDO VR in cadence with programmable output and median value of 850mV.
+  page-name: LDO
