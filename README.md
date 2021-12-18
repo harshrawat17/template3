@@ -1,17 +1,16 @@
 # Portfolio Template
 
-This is a Jekyll website template designed for Prep Fellows.
+This is a Jekyll website template designed for Explorer Fellows. During the Fellowship, you'll generate a number of projects 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/97877b3e-9f36-4939-a24c-0b622f923d50/deploy-status)](https://app.netlify.com/sites/mlh-fellowship-portfolio/deploys)
-
+This can also be used for Open Source and Externship Fellows but you might need to make some tweaks.
 
 ## Make your own!
 
-1. Use the Template button.
+1. Fork this repository
 2. Update `_config.yml` to contain your information.
-    1. Change `url` to the URL you'll be hosting it at
+    1. Change `url` to be what your Github Pages will be (the name of the repository)
     2. Make sure it has the /
-3. Use something like Netlify or GitHub Pages to deploy (note, this only works on username.github.io, not username.github.io/repo-name)
+3. Go to the repository settings and turn on GitHub Pages
 
 ## Add your portfolio
 
@@ -19,24 +18,24 @@ Head to `_data` and fill out either `projects.yml`, `experience.yml` and `educat
 
 Project example.
 ```yaml
-- title: Online Shopping Application
-  event: MLH Prep - Batch 4.5
-  date: Fall 2021
+- title: Machine Learning Project
+  event: MLH Fellowship Explorer Sprint 3 - Batch 1
+  date: Fall 2020
 ```
 
 Experience example.
 ```yaml
-- role: MLH Prep Fellow
+- role: Open Source Fellow
   company: MLH Fellowship
-  dates: Summer 2021
+  dates: Summer 2020
   logo: fellowship.svg
 ```
 
 Education example.
 ```yaml
-- course: Prep Fellow
+- course: Explorer Fellow
   institute: MLH Fellowship
-  dates: Fall 2021
+  dates: Fall 2020
   logo: fellowship.svg
 ```
 ## Add project posts
@@ -49,7 +48,7 @@ Education example.
 Top of post markdown file post.
 ```
 ---
-title: Project
+title: Sprint 1 Project
 layout: page
 ---
 ```
@@ -57,10 +56,10 @@ layout: page
 `projects.yml` with the `page-name` field.
 
 ```yaml
-- title: Online Shopping Application
-  event: MLH Prep - Batch 4.5
-  date: Summer 2021
-  page-name: project
+- title: Machine Learning Project
+  event: MLH Fellowship Explorer Sprint 3 - Batch 1
+  date: Fall 2020
+  page-name: sprint1
 ```
 
 ## Development
@@ -68,6 +67,6 @@ layout: page
 If you want to test it locally or add some new features, run the below commands. Make sure to have Ruby and Bundler installed.
 
 ```
-bundle install --path vendor/bundle
+bundle install
 bundle exec jekyll serve
 ```
