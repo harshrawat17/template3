@@ -9,15 +9,11 @@ layout: page
 
 ## Description
 
-The main aim of this circuit is to maintain a constant programmable voltage within range (so devices using this are not damaged) throughout without any fluctuations from startup , power down and load/line regulation.
-
-Noise Contribution of the circuit to other components using this is minimal.
-
-The ciruit is ensured to be stable throughtout PVT using compensation, feedback and OTA.
-
-Minimal power consumption is ensured by low functional and leakage currents.
-
-No ideal components were used in the design and everything mimicked real world. 
+* The main aim of this circuit is to maintain a constant programmable voltage within range (so devices using this are not damaged) throughout without any fluctuations from startup , power down and load/line regulation. 
+* Noise Contribution of the circuit to other components using this is minimal. 
+* The ciruit is ensured to be stable throughtout PVT using compensation, feedback and OTA. 
+* Minimal power consumption is ensured by low functional and leakage currents. 
+* No ideal components were used in the design and everything mimicked real world.  
 
 ## Components used
 
@@ -42,6 +38,13 @@ resistance such that the compensation constraints can be relaxed. The OTA design
 A 5-transistor differential circuit with the mosfets being in either subthreshold or saturation 
 region throughout PVT.
 
+## Working
 
+* A vref is set by a source and the comparator finds the difference bertween the feedback voltage and the vref and then amplifies it 
+* The amplified voltage is given as gate voltage to the pass device which regulates the current flowing through it.
+* The current then proportionaly decreases/increases the feedback voltage .
+* Based on the feedback voltage the difference is again calculated till the difference is minimized
+* The feedback loop keeps running till the output voltage is maintained 
+* A separate compensation block is integrated to ensure the output does not oscillate and system have sufficient phase margin throughout PVT
 
 
