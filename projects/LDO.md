@@ -2,9 +2,6 @@
 title: My Project
 layout: page
 ---
-## What it does
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 
 ## Circuit Diagram
 
@@ -12,14 +9,35 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## What it does
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The main aim of this circuit is to maintain a constant programmable voltage within range (so devices using this are not damaged) throughout without any fluctuations from startup , power down and load/line regulation.
+Noise Contribution of the circuit to other components using this is minimal.
+The ciruit is ensured to be stable throughtout PVT using compensation, feedback and OTA.
+Minimal power consumption is ensured by low functional and leakage currents.
+No ideal components were used in the design and everything mimicked real world. 
 
-## How we built it
+## Components used
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+# Pass Device
+Sized the pass device with greater length and multipliers such that it can withstand large 
+current and the Vgs and Vds are maintained so that the OTA functions properly and output 
+voltage is maintained respectively.
 
-## Challenge we ran into
+# Compensation
+Used the proper compensation technique such that it does not disturb introduce noise at 
+the Vgs of the pass device and at the same time does not occupy too much area while giving 
+good phase margin.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+# Programmable output
+The resistances decide the quiescent current and the feedback factor to the OTA and the 
+output voltage. It was designed such that output voltage has 4 levels, 825m-900m in steps of 
+25m, so that the LDO can have a wide range of application.
+
+# Operational amplifier
+Designed an OTA using the gm/id method to give sufficient gain but minimizing output 
+resistance such that the compensation constraints can be relaxed. The OTA designed was
+A 5-transistor differential circuit with the mosfets being in either subthreshold or saturation 
+region throughout PVT.
+
+
 
 
