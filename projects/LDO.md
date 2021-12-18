@@ -40,11 +40,11 @@ region throughout PVT.
 
 ## Working
 
-* A vref is set by a source and the comparator finds the difference bertween the feedback voltage and the vref and then amplifies it 
+* A vref is set by a source and the comparator finds the difference bertween the feedback voltage and the vref and then amplifies it. 
 * The amplified voltage is given as gate voltage to the pass device which regulates the current flowing through it.
-* The current then proportionaly decreases/increases the feedback voltage .
-* Based on the feedback voltage the difference is again calculated till the difference is minimized
-* The feedback loop keeps running till the output voltage is maintained 
-* A separate compensation block is integrated to ensure the output does not oscillate and system have sufficient phase margin throughout PVT
+* The current then proportionaly decreases/increases the feedback voltage.
+* Based on the feedback voltage the difference is again calculated till the difference is minimized.
+* The feedback loop keeps running till the output voltage is maintained. 
+* A separate compensation block is integrated to ensure the output does not oscillate and system have sufficient phase margin throughout PVT.
 
 
