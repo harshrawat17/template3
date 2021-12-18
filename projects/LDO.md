@@ -10,9 +10,13 @@ layout: page
 ## Description
 
 The main aim of this circuit is to maintain a constant programmable voltage within range (so devices using this are not damaged) throughout without any fluctuations from startup , power down and load/line regulation.
+
 Noise Contribution of the circuit to other components using this is minimal.
+
 The ciruit is ensured to be stable throughtout PVT using compensation, feedback and OTA.
+
 Minimal power consumption is ensured by low functional and leakage currents.
+
 No ideal components were used in the design and everything mimicked real world. 
 
 ## Components used
