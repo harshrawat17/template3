@@ -15,7 +15,7 @@ The ciruit is ensured to be stable throughtout PVT using compensation, feedback 
 Minimal power consumption is ensured by low functional and leakage currents.
 No ideal components were used in the design and everything mimicked real world. 
 
-# Components used
+## Components used
 
 ### Pass Device
 Sized the pass device with greater length and multipliers such that it can withstand large 
