@@ -7,7 +7,7 @@ layout: page
 
 ![image](https://user-images.githubusercontent.com/33692444/146647902-49792e00-c648-48a4-96e0-d91e3af06755.png)
 
-## What it does
+## Description
 
 The main aim of this circuit is to maintain a constant programmable voltage within range (so devices using this are not damaged) throughout without any fluctuations from startup , power down and load/line regulation.
 Noise Contribution of the circuit to other components using this is minimal.
