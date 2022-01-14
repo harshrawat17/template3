@@ -1,5 +1,9 @@
 
-
+- title: Digitally Controlled Oscillator
+  event: Designed current and cap switched fully diff 4 stage CMOS ring oscillator with quadrature outputs.
+  page-name: project
+  logo: Pilani.svg.png
+  
 - title: LDO - Volatge Regulator
   event: Designed a LDO VR in cadence with programmable output and median value of 850mV.
   page-name: LDO
@@ -10,7 +14,7 @@
   page-name: TCL
   logo: NVIDIA.png
   
-- title: Digitally Controlled Oscillator
-  event: Designed current and cap switched fully diff 4 stage CMOS ring oscillator with quadrature outputs.
-  page-name: project
-  logo: Pilani.svg.png
+- title:  Manhattan vs P2P Resistance 
+  event: Collect the data from different blocks to capture the variation of Manhattan Distance with Resistance and determine the ideal coefficient 
+  page-name: MVP
+  logo: NVIDIA.png
