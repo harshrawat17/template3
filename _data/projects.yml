@@ -2,7 +2,7 @@
 - title: Digitally Controlled Oscillator
   event: Designed current and cap switched fully diff 4 stage CMOS ring oscillator with quadrature outputs.
   page-name: project
-  logo: Pilani.svg.png
+  logo: Pilani.png
   
 - title: LDO - Volatge Regulator
   event: Designed a LDO VR in cadence with programmable output and median value of 850mV.
