@@ -7,3 +7,8 @@
   event: Designed a LDO VR in cadence with programmable output and median value of 850mV.
   page-name: LDO
   logo: ceremorphic.png
+  
+- title: Place and Route
+  event: Used TCL scripting in various stages of the PnR flow.
+  page-name: TCL
+  logo: NVIDIA.png
