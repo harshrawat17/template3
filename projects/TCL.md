@@ -2,6 +2,14 @@
 title: Place and Route
 layout: page
 ---
+## Description
+
+Certain assignments were given and completed to help 
+understand the usage of TCL in the PnR domain. The algorithms and scripts used by 
+these softwares are usually in TCL. TCL commands can be used to query various 
+information from a given partition whose database is opened on these tools. Shown 
+below are the 3 assignments (and their solutions), which required using TCL 
+commands to perform tasks on a partition.
 
 ## PnR Flow
 The PnR flow can be categorised into the steps shown in the image below.
@@ -9,7 +17,7 @@ The PnR flow can be categorised into the steps shown in the image below.
 
 ## Assignment 1 – Finding different components of the chips
 
-### Question -
+### Question 
 
 1. Try to list out all the RAMs and soft macros ( instance and ref name) 
 2. Try to list out the area occupied by the macros and RAMs.The output should be 
@@ -22,7 +30,7 @@ location
 7. Create a 200x200 hard placement blockage at topmost right corner of the block 
 and convert it into partial blockage with 60% util. 
 
-### Algorithm -
+### Algorithm 
 1. Filtered out the cells using name tag and attributes and then wrote this into a 
 file. 
 2. Extracted out the required info (name and area) and wrote that into a file. 
@@ -38,7 +46,7 @@ no connected nets.
 
 ## Assignment 2 – Finding the overlapping regions
 
-### Question -
+### Question 
 Write a proc, to get all shield net shapes in VM1 layer and find their overlap with 
 VM2 PG straps.
 a. Color all the VM1 shield shapes with red
@@ -46,7 +54,7 @@ b. Color the VM2 PG shapes with blue
 c. Color the overlapping area between VM1 shield and VM2 PG straps 
 with yellow. 
   
-### Algorithm -
+### Algorithm 
 Wrote a proc that does the following -
 1. Extracted all net shapes in the VM1 layer which had a shield type. 
 2. Extracted all net shapes in the VM2 layer which were PG straps. 
@@ -60,7 +68,7 @@ by performing a NOT operation.
 
 ## Assignment 3 -  Tracing the Clock Tree
 
-## Question -
+## Question 
 Given a net, write a proc that will return its root driver pin by tracing through 
 buffers/inverters.
   
