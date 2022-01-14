@@ -5,5 +5,4 @@
 
 - title: LDO - Volatge Regulator
   event: Designed a LDO VR in cadence with programmable output and median value of 850mV.
-  logo: ceremorphic.png
   page-name: LDO
