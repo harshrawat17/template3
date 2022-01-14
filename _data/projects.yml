@@ -1,8 +1,9 @@
 - title: Digitally Controlled Oscillator
   event: Designed and simulated current and capacitance switched fully differential 4 stage CMOS ring oscillator with quadrature outputs. The work involved a study of the phase noise as a function of a number of stages in the oscillator.
-
+  
   page-name: project
 
 - title: LDO - Volatge Regulator
   event: Designed a LDO VR in cadence with programmable output and median value of 850mV.
+  logo: ceremorphic.png
   page-name: LDO
