@@ -1,5 +1,5 @@
 ---
-title:  Manhattan vs P2P Resistance 
+title:  Manhattan vs P2P Resistance  
 layout: page
 ---
 ## Objective
