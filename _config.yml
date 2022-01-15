@@ -5,7 +5,7 @@ baseurl: "/"
 url: "https://harshrawat17.github.io/" 
 twitter_username: harshrawat17
 github_username:  harshrawat17
-future: true
+
 sass:
   sass_dir: _sass
 
