@@ -1,4 +1,7 @@
-- title:  
+- title: Pipelined MIPS Processor
+  event: Designed a four stage Pipe-lined processor ( PC, IF/ID, ID/EX, EX/WB) including the control signals used to run Addi , Shift , Jump, Branch using Verilog
+  page-name: comparch
+  logo: Pilani.png
 
 - title: Digitally Controlled Oscillator
   event: Designed current and cap switched fully diff 4 stage CMOS ring oscillator with quadrature outputs.
