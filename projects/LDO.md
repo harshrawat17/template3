@@ -13,7 +13,20 @@ layout: page
 * Noise Contribution of the circuit to other components using this is minimal. 
 * The ciruit is ensured to be stable throughtout PVT using compensation, feedback and OTA. 
 * Minimal power consumption is ensured by low functional and leakage currents. 
-* No ideal components were used in the design and everything mimicked real world.  
+* No ideal components were used in the design and everything mimicked real world. 
+
+## Specifications
+
+The whole circuit was designed to meet the following specifications throughout PVT ranging from 
+temperature of -40 to 125 degree, including all corners FF, SS , SF, FS , TT for all components .
+
+* Phase margin >= 50 degree
+* PSRR <= -30db
+* DC loopgain >= 50db
+* Vreg trans range 828m to 871m (2.5% variation)
+* Power down current < 6u
+* Functional current < 100u
+* Max Vreg < 940m (including transient peaks
 
 ## Components used
 
