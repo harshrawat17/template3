@@ -1,8 +1,8 @@
-- title:
+- title:  
 
 - title: Digitally Controlled Oscillator
   event: Designed current and cap switched fully diff 4 stage CMOS ring oscillator with quadrature outputs.
-  page-name: project
+  page-name: DCO
   logo: Pilani.png
   
 - title: LDO - Volatge Regulator
