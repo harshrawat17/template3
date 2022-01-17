@@ -1,19 +1,23 @@
-- role: President
-  company: ELECTRONICS AND COMMUNICATION
-  dates: Present Presenting problems faced by the students in a respectable way to the faculty and fixing them.Helping Juniors with difficult subjects and taking doubt sessions. Organizing orientations to give Juniors a perspective of the opportunities in the field.
+- title: President
+  event: ELECTRONICS AND COMMUNICATION
+  logo: Pilani.png
+  date:
+  
+     Present Presenting problems faced by the students in a respectable way to the faculty and fixing them.
+     Helping Juniors with difficult subjects and taking doubt sessions. 
+     Organizing orientations to give Juniors a perspective of the opportunities in the field.  
+
+- title: Mentor
+  event: Peer Mentorship program 
+  date: Mentor to 10 juniors and helped them understand the various things in college and how they function.
   logo: Pilani.png
   
-- role: Mentor
-  company: Peer Mentorship program 
-  dates:  Mentor to 10 juniors and helped them understand the various things in college and how they function.
-  logo: Pilani.png
-  
-- role: Mentor
-  company: Verilog 
-  dates: Mentor to 25 juniors and helped them understand the verilog language by alloting assignments and monitoring the progress and clearing doubts along the way.
+- title: Mentor
+  event: Verilog 
+  date: Mentor to 30 juniors and helped them understand the verilog language by alloting assignments and monitoring the progress and clearing doubts along the way.
   logo: Pilani.png
 
-- role: Teaching Assistant 
-  company: Analog and Digital VLSI Design 
-  dates: Helped with doubts of students for the course.
+- title: Teaching Assistant 
+  event: Analog and Digital VLSI Design 
+  date: Helped with doubts of students for the course.
   logo: Pilani.png

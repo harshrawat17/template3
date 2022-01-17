@@ -15,10 +15,15 @@
   
 - title: Place and Route
   event: Used TCL scripting in various stages of the PnR flow.
-  page-name: TCL
+  page-name: MVP
   logo: NVIDIA.png
   
-- title:  Manhattan vs P2P Resistance 
+- title: Manhattan vs P2P Resistance 
   event: Collect the data from different blocks to capture the variation of Manhattan Distance with Resistance and determine the ideal coefficient 
   page-name: MVP
   logo: NVIDIA.png
+
+- title: Matlab GUI 
+  event: Matlab GUI which filters the noise from inputs and gives the output in freq and time domain.
+  page-name: matlab
+  logo: Pilani.png
