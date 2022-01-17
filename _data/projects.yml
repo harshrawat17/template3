@@ -15,7 +15,7 @@
   
 - title: Place and Route
   event: Used TCL scripting in various stages of the PnR flow.
-  page-name: MVP
+  page-name: TCL
   logo: NVIDIA.png
   
 - title: Manhattan vs P2P Resistance 
