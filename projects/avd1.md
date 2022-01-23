@@ -6,6 +6,9 @@ layout: page
 
 Calculated the delay time from clock to q for the Static and Dynamic Flip flops 
 
+Static CMOS and CML was made using Gpdk45n and Dynamic CMOS was made using UMC_180n. 
+ Simulations were carried out in Cadence Virtuoso
+
 ## Static CMOS flip flop Circuit Diagrams
 
 ![image](https://user-images.githubusercontent.com/33692444/150675352-ef9012e3-70fb-45b0-82f8-3a254a7b24af.png)
