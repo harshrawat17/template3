@@ -3,6 +3,8 @@ title:  Design of Amplifiers
 layout: page
 ---
 
+* Simulations were carried out in Cadence Virtuoso using gpdk045 technology files for all the devices.
+
 # Cascode Current mirror
 
 ![image](https://user-images.githubusercontent.com/33692444/150674789-32083953-d2ff-4c4e-aa6f-7f98aa50e78e.png)
@@ -38,3 +40,5 @@ level in the range 0.6 V to 1.2 V
 Designed a Two stage Miller Compensated amplifier for a DC gain of 40 dB and bias currents of 
 1mA and 10 mA for first and second stage respectively and input common mode range of 0.6 V 
 to 1.2 V. The compensation capacitor was chosen to obtain a Phase Margin (PM) of 60⁰.
+
+
