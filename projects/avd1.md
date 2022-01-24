@@ -66,5 +66,5 @@ Static CMOS and CML was made using Gpdk45n and Dynamic CMOS was made using UMC_1
 
 ![image](https://user-images.githubusercontent.com/33692444/150681570-c6004d7f-6bfa-49f0-8509-90f237b1cb8b.png)
 
-
+### There were a total of 10 stages . The first two stages were not working with Static CMOS , hence CML logic had to be implemented for the first two stages followed by CMOS .
 
