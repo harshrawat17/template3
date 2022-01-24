@@ -1,29 +1,58 @@
-- title: Pipelined MIPS Processor
-  event: Designed a four stage Pipe-lined processor ( PC, IF/ID, ID/EX, EX/WB) including the control signals used to run Addi , Shift , Jump, Branch using Verilog
-  page-name: comparch
-  logo: Pilani.png
-
-- title: Digitally Controlled Oscillator
-  event: Designed current and cap switched fully diff 4 stage CMOS ring oscillator with quadrature outputs.
-  page-name: TCL
-  logo: Pilani.png
-  
 - title: LDO - Volatge Regulator
-  event: Designed a LDO VR in cadence with programmable output and median value of 850mV.
+  event: Designed a LDO VR in Cadence with programmable output and median value of 850mV.
   page-name: LDO
   logo: ceremorphic.png
-  
+
+- title: Manhattan vs P2P Resistance 
+  event: Collect the data from different blocks to capture the variation of Manhattan Distance with Resistance and determine the ideal coefficient using Python Scripting and graph plotting. 
+  page-name: MVP
+  logo: NVIDIA.png
+
 - title: Place and Route
   event: Used TCL scripting in various stages of the PnR flow.
   page-name: TCL
   logo: NVIDIA.png
-  
-- title: Manhattan vs P2P Resistance 
-  event: Collect the data from different blocks to capture the variation of Manhattan Distance with Resistance and determine the ideal coefficient 
-  page-name: MVP
-  logo: NVIDIA.png
+
+- title: Frequency Dividers
+  event: Designed frequency divide by 2 , 3 and 1024 Circuits in Cadence using CML and CMOS logic.
+  page-name: avd1
+  logo: Pilani.png
+
+- title: Phase Detectors
+  event: Designed Hodge and Alexander PD in Cadence.
+  page-name: avd2
+  logo: Pilani.png
+
+- title: Pipelined MIPS Processor
+  event: Designed a four stage Pipe-lined processor ( PC, IF/ID, ID/EX, EX/WB) including the control signals used to run Addi , Shift , Jump, Branch using Verilog.
+  page-name: comparch
+  logo: Pilani.png
+
+
+- title: Digitally Controlled Oscillator
+  event: Designed current and cap switched fully diff 4 stage CMOS ring oscillator with quadrature outputs in Cadence.
+  logo: Pilani.png
+
+- title: CMOS LC-VCO
+  event: Designed and Simulated different types of CMOS LC oscillators with different types of PMOS and NMOS cross coupled loads in Cadence.
+  logo: Pilani.png
+
+- title: Amplifiers 
+  event: Designed various amplifiers and a cascoded current mirror in Cadence.
+  page-name: advd
+  logo: Pilani.png
+
+- title: Object Counting unit
+  event: Designed a systems which counts the numbers of objects and the average duration between each object that passes through the belt using timer and interrupts. The project was done on ARM Processor and KEIL Software.
+  page-name: comparch
+  logo: Pilani.png 
 
 - title: Matlab GUI 
   event: Matlab GUI which filters the noise from inputs and gives the output in freq and time domain.
   page-name: matlab
+  logo: Pilani.png
+
+- title: Game Development using Python 
+  event: Used Pygame and other libraries to develop 3 games.
+  page-name: pythongame
   logo: Pilani.png

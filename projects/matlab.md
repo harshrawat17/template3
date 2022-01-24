@@ -11,7 +11,7 @@ output , both in time and frequency domain along with the filter response. The f
 also specified by the user.
 
 ## Code
-~~~
+```
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
                    'gui_Singleton',  gui_Singleton, ...
@@ -199,4 +199,4 @@ axes(handles.axes2);
 plot(2600*w/pi,mag);
 axis ([0 2600 -100 0]);
 title('filter response'); xlabel('t=nT_s'); ylabel('x[n]');
-~~~
+```
