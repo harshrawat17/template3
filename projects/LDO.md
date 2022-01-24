@@ -28,12 +28,7 @@ temperature of -40 to 125 degree, including all corners FF, SS , SF, FS , TT for
 * Functional current < 100u
 * Max Vreg < 940m (including transient peaks
 
-<<<<<<< HEAD
-Simulations were carried out in Cadence Virtuoso using 135n FinFets and 54n FinFets technology files for all 
-the devices
-=======
 Simulations were carried out in Cadence Virtuoso using 135n FinFets and 54n FinFets technology files for all the devices
->>>>>>> 944d782 (info about harsh2)
 
 ## Components used
 

@@ -1,4 +1,4 @@
-- title: LDO - Volatge Regulator
+- title: LDO - Voltage Regulator
   event: Designed a LDO VR in Cadence with programmable output and median value of 850mV.
   page-name: LDO
   logo: ceremorphic.png
