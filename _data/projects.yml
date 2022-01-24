@@ -44,7 +44,6 @@
 
 - title: Object Counting unit
   event: Designed a systems which counts the numbers of objects and the average duration between each object that passes through the belt using timer and interrupts. The project was done on ARM Processor and KEIL Software.
-  page-name: comparch
   logo: Pilani.png 
 
 - title: Matlab GUI 
