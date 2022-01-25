@@ -15,7 +15,7 @@ commands to perform tasks on a partition.
 The PnR flow can be categorised into the steps shown in the image below.
 ![image](https://user-images.githubusercontent.com/33692444/149570095-b7873cc0-2a17-4961-8588-3e949bf7e10a.png)
 
-## Assignment 1 – Finding different components of the chips
+## Assignment 1 – Finding different components of the chip
 
 ### Question 
 
