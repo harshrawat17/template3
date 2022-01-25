@@ -73,3 +73,21 @@
         height: 200px;
     }
 }
+
+@media only screen and (max-width: 1500px) {
+  .profile {
+    orientation : landscape
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .profile {
+     orientation : landscape
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .profile {
+    orientation : potrait
+  }
+}
