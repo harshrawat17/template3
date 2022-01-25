@@ -4,7 +4,7 @@ description: "Hi , I am Harsh Rawat and my interest lies in the field of Analog 
 baseurl: "/" 
 url: "https://harshrawat17.github.io/" 
 twitter_username: <a href="https://www.linkedin.com/in/harsh-r-550719b6"> target="_blank" >linkedin</a>
-github_username:  <a href ="mailto:harsh.rawat17@gmail.com"> target="_blank" >Email</a>
+github_username:  <a href="mailto:harsh.rawat17@gmail.com"> target="_blank" >Email</a>
 
 sass:
   sass_dir: _sass
