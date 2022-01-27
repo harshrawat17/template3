@@ -3,8 +3,8 @@ email:  "Contact me :"
 description: "Hi , I am Harsh Rawat and my interest lies in the field of Analog and Mixed Signal VLSI design, more experienced with the analog side. I love designing circuits and coming up with ways to effectively save Power and Area without compromising stability. Have little experience with Verilog and Python , would love to explore if opportunity comes."
 baseurl: "/" 
 url: "https://harshrawat17.github.io/" 
-twitter_username: <a href="https://www.linkedin.com/in/harsh-r-550719b6" target="_blank" >Linkedin</a>
-github_username:  <a href="mailto:harsh.rawat17@gmail.com" target="_blank" >Email</a>
+twitter_username: <a href="https://www.linkedin.com/in/harsh-r-550719b6" target="_blank" style="color: blue;">Linkedin</a>
+github_username:  <a href="mailto:harsh.rawat17@gmail.com" target="_blank" style="color: blue;">Email</a>
 
 sass:
   sass_dir: _sass
