@@ -17,45 +17,34 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
+- title: Ceremorphic
+  title-url: https://ceremorphic.com/
+  date: July 2021 - Present
+  subtitle: Analog Design Engineer
   tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
+    - tag: Cadence Virtuoso
+    - tag: 5nm
+    - tag: Verilog-A
+    - tag: EMX
   timeline-side: right
 
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
+- title: Nvidia
+  title-url: https://www.nvidia.com/en-in/
+  date: Jan 2021 - June 2021
+  subtitle: ASIC Intern
   tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
+    - tag: Tcl
+    - tag: Python
+    - tag: ICC2
+    - tag: Innovus
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
+- title: Birla Institue of Technology Pilani
+  title-url: https://www.bits-pilani.ac.in/
+  date: 2017 - 2021
+  subtitle: B.E. Electronics and Communication
+  tags:
+    - tag: CGPA 8.63/10  
   timeline-side: left
 
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
-  tags:
-    - tag: React
-    - tag: Node
-    - tag: Javascript
-  timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
-  timeline-side: left

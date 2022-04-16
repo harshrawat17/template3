@@ -13,21 +13,89 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: project X
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
-  tags:
-    - tag: MongoDB
-    - tag: Express
-    - tag: AngularJS
-    - tag: Node
 
-- name: project Y
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: LDO - Voltage Regulator
+  descr: Designed a LDO VR in Cadence with programmable output and median value of 850mV.
+  demo: https://harshrawat17.github.io//projects/LDO
+  tags:
+    - tag: Cadence Virtuoso
+    - tag: 5nm
+
+- name: Manhattan vs P2P Resistance 
+  descr: Collect the data from different blocks to capture the variation of Manhattan Distance with Resistance and determine the ideal coefficient using Python Scripting and graph plotting. 
+  demo: https://harshrawat17.github.io//projects/MVP
   tags:
     - tag: Python
-    - tag: Django
+    - tag: tcl
 
-- name: project Z
-  descr: "You can also set a project without demo link and no tags"
+- name: Place and Route
+  descr: Used TCL scripting in various stages of the PnR flow.
+  demo: https://harshrawat17.github.io//projects/TCL
+  tags:
+    - tag: tcl
+    - tag: ICC2
+
+- name: Frequency Dividers
+  descr: Designed frequency divide by 2 , 3 and 1024 Circuits in Cadence using CML and CMOS logic.
+  demo: https://harshrawat17.github.io//projects/avd1
+  tags:
+    - tag: Cadence Virtuoso
+    - tag: 45nm
+   
+
+- name: Phase Detectors
+  descr: Designed Hodge and Alexander PD in Cadence.
+  demo: https://harshrawat17.github.io//projects/avd2
+  tags:
+    - tag: Cadence Virtuoso
+    - tag: 45nm
+
+- name: Pipelined MIPS Processor
+  descr: Designed a four stage Pipe-lined processor ( PC, IF/ID, ID/EX, EX/WB) including the control signals used to run Addi , Shift , Jump, Branch using Verilog.
+  demo: https://harshrawat17.github.io//projects/comparch
+  tags:
+    - tag: Verilog
+
+
+- name: Digitally Controlled Oscillator
+  descr: Designed current and cap switched fully diff 4 stage CMOS ring oscillator with quadrature outputs in Cadence.
+  demo : ""
+  tags:
+    - tag: Cadence Virtuoso
+    - tag: 45nm
+
+- name: CMOS LC-VCO
+  descr: Designed and Simulated different types of CMOS LC oscillators with different types of PMOS and NMOS cross coupled loads in Cadence.
+  demo: ""
+  tags:
+     - tag: Cadence Virtuoso
+     - tag:  45nm
+
+- name: Amplifiers 
+  descr: Designed various amplifiers and a cascoded current mirror in Cadence.
+  demo: https://harshrawat17.github.io//projects/advd
+  tags:
+    - tag: Cadence Virtuoso
+    - tag:  45nm
+
+- name: Object Counting unit
+  descr: Designed a systems which counts the numbers of objects and the average duration between each object that passes through the belt using timer and interrupts. The project was done on ARM Processor and KEIL Software.
+  demo: ""
+  tags:
+    - tag: Keil
+    - tag: ARM
+
+- name: Matlab GUI 
+  descr: Matlab GUI which filters the noise from inputs and gives the output in freq and time domain.
+  demo: https://harshrawat17.github.io//projects/matlab
+  tags:
+    - tag: GUI
+
+- name: Game Development using Python 
+  descr: Used Pygame and other libraries to develop 3 games.
+  demo: https://harshrawat17.github.io//projects/pythongame
+  tags:
+    - tag: Python
+    - tag: Pygame
+
+

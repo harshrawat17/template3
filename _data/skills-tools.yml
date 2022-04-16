@@ -5,32 +5,22 @@
 # - name: Git
 #   weight: 5
 
-- name: Git
+- name: Cadence Virtuoso
   weight: 5
 
-- name: Bash
+- name: ICC2
   weight: 3
 
-- name: Scrum
+- name: Innovus
   weight: 3
 
-- name: Travis CI
-  weight: 1
+- name: Keil
+  weight: 3
 
-- name: Jenkins
-  weight: 1
+- name: LTSpice
+  weight: 3
 
-- name: Chrome DevTools
+- name: Proteus8
   weight: 2
 
-- name: npm
-  weight: 2
 
-- name: gulp
-  weight: 4
-
-- name: VS Code
-  weight: 3
-
-- name: Postman
-  weight: 4

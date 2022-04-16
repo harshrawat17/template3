@@ -52,6 +52,16 @@
         {% include section-projects.html %}
       </section>
     {% endif %}
+    {%if site.show_conferences_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-conferences.html %}
+      </section>
+    {% endif %}
+    {%if site.show_por_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-por.html %}
+      </section>
+    {% endif %}
     {%if site.show_contact_card %}
     <section class="card neumorphism-card-big">
       {% include section-contact.html %}

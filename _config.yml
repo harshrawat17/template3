@@ -14,17 +14,14 @@ baseurl: ""
 username: Harsh Rawat
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Electronics Engineer
+typing_text: no not a Soft Dev but an electronics engineer
 # email: Your E-Mail address for the email button.
 email: harsh.rawat17@gmail.com
 # For every social button you want to display, set your username or userid
 # If you do not use one of the following websites, then leave it empty
 # > twitter_username:
-github_username: longpdo
-codepen_username: exampleUser
-dev_username: exampleUser
-linkedin_username: exampleUser
-twitter_username: exampleUser
+github_username: harshrawat17
+linkedin_username: https://www.linkedin.com/in/harsh-r-550719b6/
 
 # ABOUT ME SECTION
 # show_aboutme_card:
@@ -32,9 +29,10 @@ twitter_username: exampleUser
 # > setting this to false, will omit the About Me section
 show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
-about_me_title: Hi , I am Harsh Rawat and my interest lies in the field of Analog and Mixed Signal VLSI design, more experienced with the analog side. I love designing circuits and coming up with ways to effectively save Power and Area without compromising stability. Have little experience with Verilog and Python , would love to explore if opportunity comes
+about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>. You can also find me on <a class="highlight-link" href="https://jamstackthemes.dev/theme/jekyll-neumorphism/" target="_blank" rel="noreferrer">JAMstack Themes</a> and on <a class="highlight-link" href="https://jekyll-themes.com/neumorphism/" target="_blank" rel="noreferrer">Jekyll Themes</a>.
+about_me_description:  Hi , I am Harsh Rawat and my interest lies in the field of Analog and Mixed Signal VLSI design, more experienced with the analog side. I love designing circuits and coming up with ways to effectively save Power and Area without compromising stability. Have little experience with Verilog and Python , would love to explore if opportunity comes
+
 
 # SKILLS SECTION
 # show_skills_card:
@@ -53,7 +51,7 @@ show_timeline_card: true
 timeline_title: Education & Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: https://example.com/
+cv_download_link: https://drive.google.com/drive/u/0/folders/1PS5qQfmzuB6YM5pOLdqzEMDczcYD9i4h
 
 # PROJECTS SECTION
 # show_projects_card:
@@ -66,10 +64,18 @@ show_projects_card: true
 show_projects: true
 # projects_title: The will be displayed as the title of your projects
 projects_title: Projects
+
+show_conferences_card: true
+show_conferences: true
+conferences_title: Conferences
+
+show_por_card: true
+show_por: true
+por_title: Position of Responsibilty
 # show_os_projects:
 # > setting this to true, will display your public projects on github
 # > setting this to false, will omit your public projects on github
-show_os_projects: true
+show_os_projects: false
 # os_projects_title: The will be displayed as the title of your open source projects
 os_projects_title: Open Source Projects
 
@@ -81,7 +87,7 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>.
+contact_description: If you like the work I do then you can contact me using the following links
 
 # GITHUB-METADATA
 # Set this to your forked repository

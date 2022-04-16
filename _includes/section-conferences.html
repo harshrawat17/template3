@@ -1,0 +1,28 @@
+{% if site.show_conferences %}
+  <h1 class="title"><span>{{site.conferences_title}}</span></h1>
+  <div class="projects-wrapper">
+    {% for conferences in site.data.conferences %}
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <!-- <div class="name-link-wrapper">
+          <h3>{{conferences.name}}</h3>
+        </div> -->
+        <p class="project-desc">{{conferences.descr}}</p>
+        {% if conferences.demo %}
+          <a class="highlight-link" href="{{conferences.demo}}" target="_blank" rel="noreferrer">
+            {{conferences.name}}
+          </a>
+        {% endif %}
+        {% if conferences.tags %}
+          <div class="tag-wrapper">
+            {% for tag in conferences.tags %}
+              <span class="tag neumorphism-card">{{tag.tag}}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
+
+

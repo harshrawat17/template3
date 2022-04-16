@@ -1,0 +1,28 @@
+{% if site.show_por %}
+  <h1 class="title"><span>{{site.por_title}}</span></h1>
+  <div class="projects-wrapper">
+    {% for por in site.data.por %}
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>{{por.name}}</h3>
+        </div>
+        <p class="project-desc">{{por.descr}}</p>
+        {% if por.demo %}
+          <a class="highlight-link" href="{{por.demo}}" target="_blank" rel="noreferrer">
+            {{por.name}}
+          </a>
+        {% endif %}
+        {% if por.tags %}
+          <div class="tag-wrapper">
+            {% for tag in por.tags %}
+              <span class="tag neumorphism-card">{{tag.tag}}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
+
+
